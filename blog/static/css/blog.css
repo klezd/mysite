@@ -1,0 +1,71 @@
+body {
+    padding-left: 15px;
+    color: white;
+    background: radial-gradient(circle, #527480, #A0B4BA, #2B3133);
+}
+h1 a {
+    color: #FCA205;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #6B6858
+}
+a:hover {
+  text-decoration: none;
+  color:inherit;
+}
+
+.title {
+  text-transform:uppercase;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 1px 1px #6B6858
+}
+
+.post {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    color: black;
+}
+
+.post .date {
+  color: #F0DDDF;
+}
+
+.post .date:hover {
+  color: #6B6858;
+  cursor: pointer;
+}
+
+.post-title {
+  text-transform: uppercase;
+  font-family:'Gaegu', cursive;
+  font-weight: bolder;
+  color: #6B6858;
+}
+.post:hover {
+  box-shadow: 10px 10px 10px #6B6858;
+  cursor: pointer;
+}
+
+.content {
+  background-color: rgba(151,151,151,0.4);
+  width: 65%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.post-detail {
+  color: white;
+}
+
+.post-detail .post-title {
+  color: #E62EE6;
+  text-shadow: 1px 1px #6B6858
+}

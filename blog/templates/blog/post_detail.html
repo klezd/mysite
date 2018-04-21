@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="post-detail">
+  {% if post.published_date %}
+  <div class="title-detail row">
+    <div class="col-sm-6">
+      <p class="date">Published: {{ post.published_date }}</p>
+    </div>
+    <div class="col-sm-4 col-sm-offset-2 text-right">
+      <p class="date">By: {{ post.author }}</p>
+    </div>
+  </div>
+  {% endif %}
+    <h1 class="post-title">{{ post.title }}</h1>
+    <p>{{ post.text|linebreaksbr }}</p>
+</div>
+{% endblock %}
